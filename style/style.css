@@ -3,10 +3,39 @@
 
 }
 
+#profile {
+    height: 270px;
+        width: 270px;
+            margin-left: 310px;
+                border-radius: 50%;
+                    margin-top: 10px;
+}
+
+#fundo{
+    background-color: #011724;
+        display: flex;
+            flex-direction: column;
+                align-items: center;
+                    margin-top: 150px;
+}
+
 #subtitle {
     color: #06fafa;
 }
 
 #about-me {
     color: #00008b;
+        text-align: center;
+}
+
+.white-box {
+    background-color: #ffff;
+        height: 450px;
+            width: 900px;
+                border-radius: 2%;
+                    border: 4px solid #06fafa;
+}
+
+#basic-text {
+    text-align: center;
 }
